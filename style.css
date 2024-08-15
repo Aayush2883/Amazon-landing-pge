@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgba(157,116,90,1);
+    overflow-x: hidden;
+}
+
+
+input{
+    border-radius: 0;
+    border:none;
+}
+p{
+    font-family:sans-serif;
+    color: white;
+}
+
+div{
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    border:1.5px solid transparent;
+}
+
+a:hover{
+    border:1.5px solid white;
+    border-radius: 4px;
+}
+
+.outnavbar{
+    height:60px;
+    background-color: #131921;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar{
+    height:48px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    width :100vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.navlogoin{
+    display:flex;
+    align-items: center;
+    height: 48px;
+    padding-left: 4px;
+    padding-right:4px;
+}
+
+.navright{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*delivery*/
+
+.deliveryin{
+    display:flex;
+    align-items: center;
+    height: 48px;
+}
+
+/*navbar center*/
+
+.navcenter{
+    display: flex;
+    height:40px;
+    align-items: center;
+}
+
+.filter{
+    display:flex;
+    align-items: center;
+    background-color: rgb(198, 192, 192);
+    padding-left: 8px;
+    height:40px;
+    padding-right: 7px;
+}
+
+.searchicon{
+    background-color: rgb(141, 141, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*navleft*/
+
+.navleft{
+    display:flex;
+}
+
+.cart{
+    display: flex;
+}
+
+/*menu*/
+
+.menuout{
+    height: 40px;
+    margin: 0;
+    width:100vw;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    height: 90%;
+    width: 100%;
+    display: flex;
+
+}
+
+.menuitem{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.banner{
+    background-image:url("/images/banner.jpg");
+    background-size:cover;
+    height: 600px;
+    margin: 0;
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.banner-item{
+    width:23%;
+    background-color: white;
+    height: 421.2px;
+    position: relative;
+    top:200px;
+}
+
+.home-item{
+    margin:10px;
+}
+
+.home-item-link{
+    width:45%;
+    padding: 5px;
+}
+
+.home-item-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.appliances-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.footer{
+    width:100vw;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    top:250px;
+    margin: 0;
+}
+
+.back-to-top{
+    padding: 10px;
+    text-align: center;
+    background-color: #314256;
+    width: 100vw;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footermain{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    text-align: left;
+    margin: 0;
+    padding: 30px;
+}
+
+hr{
+    width: 98vw;
+}
+
+.footlogo{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerlogo{
+    height: 60px;
+}
